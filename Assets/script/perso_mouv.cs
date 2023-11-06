@@ -26,6 +26,8 @@ public class perso_mouv : MonoBehaviour
         velocity = Vector3.right * horizontal + Vector3.forward * vertical + Vector3.up * saut * hauteur_saut;
         velocity = velocity.normalized;
         //rigi.velocity = velocity * vitesse;
+
+
     }
     private void FixedUpdate()
     {
